@@ -1,0 +1,172 @@
+ukadminapp1new-webrequests
+2023-06-12 08:47:44,117 ERROR Schema mla for user ISIKDAR on instance i-060d09f9ff18ba704: org.postgresql.util.PSQLException: ERROR: null value in column "application_id" of relation "case_attributes" violates not-null constraint
+  Detail: Failing row contains (null, 100, Doc#24720310, From: marcin.grzela@prokuratura.gov.pl
+  
+ 2023-06-12 07:56:22,352 ERROR Sorry. We were unable to upload one or more files - an unexpected error has occurred. - Email (original message) from neyh.ukba.nrm@homeoffice.gsi.gov.uk received on 12/06/2023
+
+-----------------------------------
+ukadminapp2new-webrequests
+2023-06-12 09:22:21,264 ERROR Schema buckinghamshire on instance i-0433bf9e14b2053cf: org.postgresql.util.PSQLException: ERROR: null value in column "user_id" of relation "appl_time_spent" violates not-null constraint
+  Detail: Failing row contains (10960921, 3612036, 2001, 2023-06-12 09:22:21.263, 2023-06-12 09:22:21.263, null, null) 
+  
+  ----------------------------------
+  ukadminapp3new-webrequests
+  2023-06-12 00:14:16,679 ERROR Schema legalsandwell on instance i-020d42b13cb5d1828: javax.ws.rs.client.ResponseProcessingException: java.io.IOException: org.apache.cxf.jaxrs.impl.ResponseImpl$1@2d33f4d4 
+  
+  ----------------------------------
+  ukadminapp4new-webrequests
+  2023-06-12 06:55:13,985 ERROR Schema coronerscroydon for user 097298@CROYDON.GOV.UK on instance i-0dffe6be431c1c255: com.microsoft.graph.http.GraphServiceException: Error code: NavigationNotSupported
+  2023-06-12 06:56:52,418 ERROR Schema coronersblackcountry for user MARGARET_COLLINS@SANDWELL.GOV.UK on instance i-0a85b4bac5383b024: org.postgresql.util.PSQLException: ERROR: null value in column "application_id" of relation "case_attributes" violates not-null constraint
+  Detail: Failing row contains (null, 400, Doc#8813991, From: yhp.secretaries@nhs.net
+  
+  -----------------------------------
+  ukadminappnew-webrequests
+  2023-06-12 06:47:07,316 ERROR Schema legalsheffield for user JANUSZ.SIODMIAK@SHEFFIELD.GOV.UK on instance i-0141b55f873e6ba88: com.microsoft.graph.http.GraphServiceException: Error code: NavigationNotSupported
+  -----------------------------------
+  ukadminsesnew-webrequests
+  2023-06-12 08:14:07,603 ERROR Schema coronersdorset on instance i-0b268070ea329624d: com.amazonaws.services.transcribe.model.AmazonTranscribeException: The security token included in the request is invalid. (Service: AmazonTranscribe; Status Code: 400; Error Code: UnrecognizedClientException; Request ID: 4f0556c3-35b1-4491-9c59-d29b4d62ff31; Proxy: null)
+  2023-06-12 09:47:35,474 ERROR Unable to retrieve document from S3: coronersgateshead/2023/coronersgateshead-20230612-D7150318
+  2023-06-12 09:49:40,998 ERROR Sorry. We were unable to upload one or more files - an unexpected error has occurred. - Email from Unknown received on 12/06/2023
+  
+  ------------------------------------
+  ukadminstagingappnew-webrequests
+  2023-06-12 09:24:49,622 ERROR Schema scoaf for user INV2@SCOAF.ORG.UK on instance i-0ffd15fd93d2615ae: com.sun.mail.smtp.SMTPSendFailedException: 554 Message rejected: Email address is not verified. The following identities failed the check in region EU-WEST-1: contact@scoaf.org.uk, Service Complaints Ombudsman for the Armed Forces <contact@scoaf.org.uk>
+  
+  ------------------------------------
+  ukperiodicappnew-webrequests
+  2023-06-11 22:50:30,090 ERROR Schema legaldemo on instance i-0d563125a40439def: java.lang.NullPointerException
+  
+  ------------------------------------
+  ukportalapp1new-webrequests
+  2023-06-12 10:15:06,101 ERROR Schema hmcts on instance i-00873e59881ef3175: org.postgresql.util.PSQLException: ERROR: null value in column "user_id" of relation "appl_time_spent" violates not-null constraint
+  Detail: Failing row contains (66782925, 39583236, 1000, 2023-06-12 10:15:06.1, 2023-06-12 10:15:06.1, null, null)
+  
+  ------------------------------------
+  ukportalappnew-webrequests
+  2023-06-12 10:07:03,153 ERROR Schema coronershertfordshire on instance i-01039228ce471e757: org.postgresql.util.PSQLException: ERROR: null value in column "user_id" of relation "appl_time_spent" violates not-null constraint
+  Detail: Failing row contains (65950952, 18674112, 400, 2023-06-12 10:07:03.152, 2023-06-12 10:07:03.152, null, null)
+  
+  2023-06-12 10:07:29,037 ERROR Schema registrationsworcestershire on instance i-0989ac39f804d15fe: org.postgresql.util.PSQLException: ERROR: null value in column "user_id" of relation "appl_time_spent" violates not-null constraint
+  Detail: Failing row contains (10220772, 2315869, 400, 2023-06-12 10:07:29.036, 2023-06-12 10:07:29.036, null, null)
+  
+  -------------------------------------
+  ukprivsecadminapp0-webrequests
+
+  
+  2023-06-11 23:09:28,790 ERROR Schema next on instance i-0928d76670bf82d74: java.lang.NullPointerException
+  
+  2023-06-11 23:09:29,155 ERROR Schema next on instance i-02ac57e228a061952: javax.ws.rs.client.ResponseProcessingException: java.io.IOException: org.apache.cxf.jaxrs.impl.ResponseImpl$1@7508d17f 
+  
+  --------------------------------------
+  ukreportsapp1new-webrequests
+  
+  2023-06-11 23:22:33,297 ERROR Schema legalangus on instance i-0954da3d1ad5bdf12: javax.ws.rs.client.ResponseProcessingException: java.io.IOException: org.apache.cxf.jaxrs.impl.ResponseImpl$1@58a6b44d
+  2023-06-11 23:22:33,777 ERROR Response from server: java.io.IOException: org.apache.cxf.jaxrs.impl.ResponseImpl$1@58a6b44d - no retry requested, service 717284 in schema legalangus 
+  2023-06-11 23:22:35,994 ERROR Schema legalliverpool on instance i-0fd180030f112a814: javax.ws.rs.client.ResponseProcessingException: java.io.IOException: org.apache.cxf.jaxrs.impl.ResponseImpl$1@33f11ecf 
+  
+  ---------------------------------------
+  ukreportsappnew-webrequests
+  
+  2023-06-11 23:33:09,571 ERROR Schema legalknowsley on instance i-0654d16842584b7ba: javax.ws.rs.client.ResponseProcessingException: java.io.IOException: org.apache.cxf.jaxrs.impl.ResponseImpl$1@1f64855 
+  
+  2023-06-11 23:43:53,690 ERROR Schema legalknowsley on instance i-0a255577381b34371: javax.ws.rs.client.ResponseProcessingException: java.io.IOException: org.apache.cxf.jaxrs.impl.ResponseImpl$1@4fde47d 
+  
+  ----------------------------------------
+  ukreportsstagingapp1new-webrequests
+  
+  2023-06-12 09:09:23,184 ERROR Schema buckinghamshire on instance i-083cf1863ecde1d11: org.postgresql.util.PSQLException: ERROR: null value in column "user_id" of relation "appl_time_spent" violates not-null constraint
+  Detail: Failing row contains (10959122, 3573822, 2001, 2023-06-12 09:09:23.182, 2023-06-12 09:09:23.182, null, null)
+  2023-06-12 09:46:08,180 ERROR Schema ofsi for user JONATHAN.MITCHELL@HMTREASURY.GOV.UK on instance i-083cf1863ecde1d11: org.jdom2.IllegalDataException: The data "Any entity participating in the deal (including Supplier, Buyer and EndUser) does not have any relations to designated persons/entities
+  
+  -----------------------------------------
+  ukreportsstagingappnew-webrequests
+
+  2023-06-11 23:43:56,112 ERROR Schema legalmerseytravel on instance i-01de43aefd929aa93: javax.ws.rs.client.ResponseProcessingException: java.io.IOException: org.apache.cxf.jaxrs.impl.ResponseImpl$1@206aa99f
+  
+  2023-06-11 23:43:57,598 ERROR Schema legalnorfolk on instance i-026b7870b849ec300: javax.ws.rs.client.ResponseProcessingException: java.io.IOException: org.apache.cxf.jaxrs.impl.ResponseImpl$1@1c553bcb 
+  
+  -----------------------------------------
+  euadminappnew-webrequests
+  
+  2023-06-12 02:27:39,799 ERROR Schema dlg on instance i-0bc78821931d7d5ec: java.lang.NullPointerException
+  
+  2023-06-12 02:27:45,068 ERROR Schema dlg on instance i-063eb30496378c6d5: java.lang.NullPointerException
+  
+  2023-06-12 02:27:42,971 ERROR Schema dlg on instance i-05b29413e7d4bbcf2: java.lang.NullPointerException
+  
+  ------------------------------------------
+  euadminindexing0-webrequests
+  
+  2023-06-12 09:11:07,464 ERROR Schema lambeth on instance i-014d9af1dc22e6705: org.apache.tika.exception.TikaException: Error creating OOXML extractor 
+  
+  2023-06-12 09:25:22,299 ERROR Schema acca on instance i-0191951fe4a4b8db3: org.postgresql.util.PSQLException: ERROR: invalid byte sequence for encoding "UTF8": 0x00
+  Where: unnamed portal parameter $5
+  
+  2023-06-12 09:37:34,381 ERROR Schema specsavers on instance i-0191951fe4a4b8db3: java.lang.StringIndexOutOfBoundsException: String index out of range: 0 
+  
+  -------------------------------------------
+  euadminindexing1-webrequests
+
+  2023-06-12 09:03:03,404 ERROR Schema acca on instance i-0d92de63ab41929b2: org.postgresql.util.PSQLException: ERROR: invalid byte sequence for encoding "UTF8": 0x00
+  Where: unnamed portal parameter $5
+  
+  2023-06-12 09:14:37,842 ERROR Schema dlg on instance i-04431e1ad585e63a6: org.postgresql.util.PSQLException: ERROR: invalid byte sequence for encoding "UTF8": 0x00
+  Where: unnamed portal parameter $5
+  
+  2023-06-12 10:29:39,817 ERROR Schema dlg on instance i-04431e1ad585e63a6: java.sql.SQLException: Connection has already been closed.
+  
+  --------------------------------------------
+  euadminstagingapp1new-webrequests
+  
+  2023-06-12 06:30:42,079 ERROR Schema vodafone for user SONIA10 on instance i-089d9ef7cde4ad52a: org.postgresql.util.PSQLException: ERROR: null value in column "application_id" of relation "case_attributes" violates not-null constraint
+  Detail: Failing row contains (null, 400, Doc#16668892, Source-Ip: 54.240.6.120
+  
+  023-06-12 08:08:04,671 ERROR Schema vodafone for user RAUFSHAIKHS on instance i-079fb092940418e27: org.postgresql.util.PSQLException: ERROR: null value in column "application_id" of relation "case_attributes" violates not-null constraint
+  Detail: Failing row contains (null, 400, Doc#16668987, From: kjsaund@hotmail.com
+  
+  2023-06-12 06:34:27,261 ERROR Schema vodafone for user MASSEYK on instance i-079fb092940418e27: org.postgresql.util.PSQLException: ERROR: null value in column "application_id" of relation "case_attributes" violates not-null constraint
+  Detail: Failing row contains (null, 400, Doc#16661802, From: no-reply@cedr.modria.com
+  
+  ---------------------------------------------
+  euadminstagingappnew-webrequests
+  
+  2023-06-12 11:47:22,151 ERROR Schema lincs on instance i-043e345c93bc3c78e: org.postgresql.util.PSQLException: ERROR: null value in column "user_id" of relation "appl_time_spent" violates not-null constraint
+  Detail: Failing row contains (21787457, 6920073, 2001, 2023-06-12 11:47:22.151, 2023-06-12 11:47:22.151, null, null)
+  
+  2023-06-12 11:52:42,812 ERROR Schema harrow for user MARIANSTEPHENS on instance i-043e345c93bc3c78e: org.postgresql.util.PSQLException: ERROR: null value in column "application_id" of relation "case_attributes" violates not-null constraint
+  Detail: Failing row contains (null, 200, Doc#9263188, Please see FOI request below.
+  
+  2023-06-12 12:00:41,888 ERROR Schema eastsussex on instance i-006c9f7b974852962: org.postgresql.util.PSQLException: ERROR: null value in column "user_id" of relation "appl_time_spent" violates not-null constraint
+  Detail: Failing row contains (43661618, 14471141, 1000, 2023-06-12 12:00:41.887, 2023-06-12 12:00:41.887, null, null)
+  
+  ----------------------------------------------
+  euportalapp1new-webrequests
+  
+  2023-06-12 11:36:57,770 ERROR Schema dlg on instance i-0b03a17c46e4f52bf: org.postgresql.util.PSQLException: ERROR: null value in column "user_id" of relation "appl_time_spent" violates not-null constraint
+  Detail: Failing row contains (243621094, 139371111, 400, 2023-06-12 11:36:57.77, 2023-06-12 11:36:57.77, null, null)
+  
+  2023-06-12 11:43:09,787 ERROR Schema vodafone on instance i-0d806f0eb1ce2120a: org.postgresql.util.PSQLException: ERROR: null value in column "user_id" of relation "appl_time_spent" violates not-null constraint
+  Detail: Failing row contains (112419285, 38306581, 400, 2023-06-12 11:43:09.786, 2023-06-12 11:43:09.786, null, null)
+  
+  -----------------------------------------------
+  euportalappnew-webrequests
+  
+  2023-06-12 00:40:23,028 ERROR Schema rac on instance i-0d42ae2f0dfe484af: org.postgresql.util.PSQLException: ERROR: null value in column "user_id" of relation "appl_time_spent" violates not-null constraint
+  Detail: Failing row contains (UF168181139, UF109466192, 400, 2023-06-12 00:40:23.027, 2023-06-12 00:40:23.027, null, null)
+  
+  2023-06-12 01:19:06,810 ERROR Schema tescobank on instance i-0da479333f0afe1a4: org.postgresql.util.PSQLException: ERROR: null value in column "user_id" of relation "appl_time_spent" violates not-null constraint
+  Detail: Failing row contains (156977117, 83255582, 700, 2023-06-12 01:19:06.809, 2023-06-12 01:19:06.809, null, null)
+  
+  -----------------------------------------------
+  eureportsapp0-webrequests
+  
+  2023-06-12 00:22:00,542 ERROR Schema experian on instance i-00667912684dea3c7: javax.ws.rs.client.ResponseProcessingException: java.io.IOException: org.apache.cxf.jaxrs.impl.ResponseImpl$1@72fc2dba
+  
+  2023-06-12 00:28:44,875 ERROR Schema experian on instance i-0db7d3f30f38a501a: javax.ws.rs.client.ResponseProcessingException: java.io.IOException: org.apache.cxf.jaxrs.impl.ResponseImpl$1@275946bb
+  
+  -----------------------------------------------
+  eureportsstagingappnew-webrequests
+  
+  2023-06-12 03:01:05,588 ERROR Schema dlg on instance i-002ec633c7a4e40c0: java.text.ParseException: Unparseable date: "1967-03-19" 
+  
+  
